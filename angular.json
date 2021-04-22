@@ -116,9 +116,16 @@
               "devServerTarget": "asutpChart:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "asutpChart"
+  "defaultProject": "asutpChart",
+  "cli": {
+    "analytics": false
+  }
 }

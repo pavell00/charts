@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "asutp-454"
+  },
+  "targets": {
+    "asutp-454": {
+      "hosting": {
+        "asutpChart": [
+          "asutp-454"
+        ]
+      }
+    }
+  }
+}
